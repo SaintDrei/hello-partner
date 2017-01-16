@@ -1,0 +1,21 @@
+dull gray - 3c3f41
+slate gray - 47484b
+cool gray - 1d1f21
+active gray - 1b1b1b
+light gray - 535353
+
+scroll gray - 313131
+scrollbar gray - 0f0f0f
+
+palette1
+5D4A66 - mute purple
+6A5D7B - ube
+8789C0 - lavender
+221D23 - purple syrup
+EACC3A - yellow pepper
+
+palette2
+purple - 4c186d
+yellow - fdf868
+light gray - c4c4c6
+dark gray - 686763
