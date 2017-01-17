@@ -96,8 +96,21 @@ margin-left: auto;
 }
 
 .about-text {
-    color: white;
+    color: #535353;
     background-color: transparent;
+    
+    
+    width: 70vw;
+    height: 100%;
+    font-family: needForSpeed;
+    color: #3c3f41;
+    
+    text-align: left;
+    vertical-align: middle;
+    
+    font-size: 1em;
+    margin-left: 2%;
+    margin-top: 25vh;
 }
 
 .stats-container {
@@ -108,7 +121,7 @@ margin-left: auto;
 }
 
 .top5-container {
-    background-image: url(imgs/1366-750-div3.png);
+    background-image: url(imgs/div3.jpg);
     background-size: 100% 100%;
     height: 110vh;
 }
@@ -122,13 +135,11 @@ margin-left: auto;
     
     text-align: left;
     vertical-align: middle;
-    margin-top: 12vh;
+    
     font-size: 2em;
-    margin-left: 1em;
+    margin-left: 1%;
 }
-.top-left:hover{
-    color: #535353;
-}
+
 
 .bot-right {
     background-color: transparent;
@@ -152,4 +163,30 @@ margin-left: auto;
 .top5-item {
     width: 100vw;
     height: 
+}
+
+.full-name {
+    font-size: 1.8em;
+    background-color: transparent;
+    
+}
+.full-name:hover{
+    cursor: pointer;
+    color: #535353;
+}
+
+.aka-name {
+     font-size: 1.8em;
+    background-color: transparent;
+}
+.aka-name:hover{
+    
+    color: #535353; cursor:default;
+}
+
+.top-item-1 {
+    -webkit-clip-path: polygon(66% 2%, 66% 2%, 75% 100%, 0% 100%);
+    background-image: url(imgs/div3.jpg);
+    width: 30%;
+    height: 80vh;
 }

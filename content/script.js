@@ -18,6 +18,12 @@ $(".stats-link").click(function() {
         scrollTop: $(".top5-container").offset().top},
         'slow');
 });
+    
+     $(".full-name").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".about-container").offset().top},
+        'slow');
+});
         
 });
     
