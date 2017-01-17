@@ -2,6 +2,14 @@
     padding: 0;
     margin: 0;
     background-color: #1d1f21;
+    
+}
+body{
+    background-color: #1d1f21;
+}
+@font-face{
+    font-family: needForSpeed;
+    src: url("fonts/nfs.ttf");
 }
 
 .bar-container {
@@ -14,7 +22,7 @@
 
 .main-container {
     width: 100 vw;
-    height: 100%;
+    height: 300vh;
     
 }
 
@@ -37,6 +45,13 @@
     vertical-align: middle;
     background-color: inherit;
     margin-left: 5%;
+    font-family: needForSpeed;
+    font-size: 2.5em;
+    color: #eacc3a;
+}
+.bar-title:hover{
+    opacity:0.7;
+    cursor: pointer;
 }
 
 .nav-container {
@@ -56,5 +71,85 @@ margin-left: auto;
 }
 
 .bar-link-text {
-        background-color: inherit;
+    background-color: inherit;
+    font-family: needForSpeed;
+    font-size: 1em;
+    color: #eacc3a;
+    
+}
+.bar-link-text:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+    .about-container {
+    width: 98.7vw;
+    height: 110vh;
+    background-image: url(imgs/1366-691-div1.png);
+    
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+    
+    background-color: white;
+        
+}
+
+.about-text {
+    color: white;
+    background-color: transparent;
+}
+
+.stats-container {
+    background-image: url(imgs/1366-786-div2.png);
+    background-size: 100% 100%;
+    height: 110vh;
+    position: relative;
+}
+
+.top5-container {
+    background-image: url(imgs/1366-750-div3.png);
+    background-size: 100% 100%;
+    height: 110vh;
+}
+
+.top-left {
+    background-color: transparent;
+    width: 50vw;
+    height: 100%;
+    font-family: needForSpeed;
+    color: #3c3f41;
+    
+    text-align: left;
+    vertical-align: middle;
+    margin-top: 12vh;
+    font-size: 2em;
+    margin-left: 1em;
+}
+.top-left:hover{
+    color: #535353;
+}
+
+.bot-right {
+    background-color: transparent;
+    color: #3c3f41;
+    font-family: needForSpeed;
+    width: 50vw;
+    text-align: right;
+    margin-top: 20vh;
+    font-size: 3em;
+    margin-right: 1.5%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 3%;
+}
+.bot-right:hover{
+    
+    color: #535353;
+}
+
+.top5-item {
+    width: 100vw;
+    height: 
 }
